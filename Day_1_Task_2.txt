@@ -1,0 +1,15 @@
+In JavaScript, objects are a fundamental data type and are used to store collections of key-value pairs. Objects in JavaScript have a flexible structure, allowing you to add, remove, and modify properties dynamically.
+
+Internally, objects in JavaScript are implemented using various mechanisms. Here are some important aspects of object representation in JavaScript:
+
+Property Storage: Objects in JavaScript store their properties as key-value pairs. The keys are strings or symbols, and the values can be any valid JavaScript data type, including other objects, functions, arrays, or primitive values (such as numbers or strings).
+
+Property Access: Object properties can be accessed using dot notation (object.property) or bracket notation (object['property']). When accessing properties, JavaScript internally performs a lookup to find the property based on its key and returns the corresponding value.
+
+Prototypes and Inheritance: JavaScript objects can have a prototype, which is another object from which they inherit properties. This forms the basis for prototypal inheritance in JavaScript. When a property is accessed on an object, if it doesn't exist in the object itself, JavaScript will look up the prototype chain to find the property in the prototype object or its parent prototypes.
+
+Object Creation: JavaScript provides several ways to create objects. The most common way is using the object literal syntax ({}) or the new Object() constructor. Additionally, you can create objects with specific prototypes using constructor functions, classes, or object creation methods like Object.create().
+
+Object Methods: Objects in JavaScript can have methods, which are functions associated with the object. These methods can be defined as properties of the object and can be invoked using the object's context (this keyword).
+
+Object Mutation: JavaScript objects are mutable, meaning you can modify their properties even after they are created. You can add new properties, delete existing properties, or modify the values of properties dynamically.
